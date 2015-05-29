@@ -1,0 +1,9 @@
+*/bin/*
+*-inlite/*
+.metadata/*
+web.config
+.gitattributes
+ReadMe_*
+*.javaproj
+dummy
+
