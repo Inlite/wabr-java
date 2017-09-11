@@ -198,7 +198,7 @@ public class WABarcodeReader
 			}
 			url += s;
 		}
-		if (!"url".equals(""))
+		if (!url.equals(""))
 		{
 			queries.put("url", url);
 		}
@@ -212,7 +212,7 @@ public class WABarcodeReader
 			}
 			image += s;
 		}
-		if (!"image".equals(""))
+		if (!image.equals(""))
 		{
 			queries.put("image", image);
 		}
